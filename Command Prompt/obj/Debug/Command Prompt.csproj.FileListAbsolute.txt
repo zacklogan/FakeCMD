@@ -1,0 +1,9 @@
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\bin\Debug\Command Prompt.exe.config
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\bin\Debug\Command Prompt.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\bin\Debug\Command Prompt.pdb
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command Prompt.csprojResolveAssemblyReference.cache
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command_Prompt.Form1.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command_Prompt.Properties.Resources.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command Prompt.csproj.GenerateResource.Cache
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command Prompt.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Command Prompt\Command Prompt\obj\Debug\Command Prompt.pdb
