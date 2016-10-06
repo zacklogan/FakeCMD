@@ -8,14 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
-// Fake cmd by xTylerCodes.
+// Fake cmd by xTylerCodes edited slightly by zacklogan (mainly just text of some messages & soon the addition of on cmd that is used a lot by scammers).
 // I suggest using JustinOBoyle's RunHijacker to overwrite the original cmd.
 // I do not take any responsibility when using this program, and it was designed to run in a disposable VM.
 namespace Command_Prompt
 {
     public partial class Form1 : Form
     {
-        public string currDirectory = "C:\\Users\\PC";
+        public string defaultdir = "C:\\Users\\Logan";
+        public string seconddir = "C:\\Users";
+        public string currDirectory = "C:\\Users\\Logan";
         public string currText = "Microsoft Windows[Version 10.0.10586]\n(c)2015 Microsoft Corporation. All rights reserved.\n\nC:\\Users\\PC>";
         public Form1()
         {
@@ -61,7 +63,7 @@ namespace Command_Prompt
                         }
                         await Task.Delay(1000);
                         richTextBox1.Text += "\n";
-                        string problem = "It has been determined that the technician is the problem, not the computer.";
+                        string problem = "It has been determined that the 'technician' is the problem, not the computer.";
                         for (int i = 0; i < problem.Length; i++)
                         {
                             await Task.Delay(50);
@@ -73,7 +75,7 @@ namespace Command_Prompt
                         {
                             Random rnd = new Random();
                             await Task.Delay(10);
-                            richTextBox1.Text += "\n" + DateTime.Today + "    " + "YOU ARE AN IDIOT " + rnd.Next(0, 10000000);
+                            richTextBox1.Text += "\n" + DateTime.Today + "    " + "MUCH DIR, SUCH WOW " + rnd.Next(0, 10000000);
                             richTextBox1.SelectionStart = richTextBox1.Text.Length; // add some logic if length is 0
                             richTextBox1.SelectionLength = 0;
                         }
